@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_mistral import ChatMistral
+from langchain_mistralai import ChatMistralAI
 from langchain_core.tools import tool
 from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate
@@ -10,7 +10,7 @@ from langchain.memory import ConversationBufferMemory
 load_dotenv()
 
 # Initialize Groq LLM (Llama 3.1 70B for efficiency, low hallucinations)
-llm = ChatMistral(model="Mistral-large-latest", temperature=0.3)
+llm = ChatMistralAI(model="Mistral-large-latest", temperature=0.3)
 
 # Tools for Financial and Legal Tasks (MSME & Consumer)
 @tool
