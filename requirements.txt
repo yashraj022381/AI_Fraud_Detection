@@ -4,6 +4,6 @@ langchain
 langchain-mistralai
 python-dotenv
 streamlit==1.39.0
-langchain-core==0.3.12
-langchain-community==0.3.24
+langchain-core
+langchain-community
 langgraph==0.5.11  
