@@ -83,37 +83,18 @@ iv). Open the local URL in your browser (e.g., http://127.0.0.1:7860)
           ![IMG_20260201_150841638_HDR](https://github.com/user-attachments/assets/39c7917b-f556-47e5-be8d-68c17253e681)
           ![IMG_20260201_150850846_HDR](https://github.com/user-attachments/assets/a24d263f-cb14-4341-8d3e-1813dcb496c5)
 
- 
-
-     
-
-
-
-
-
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
-
-  ## Technologies
+5. ## Technologies
    - Python
    - Scikit-learn (Isolation Forest)
    - Gradio (UI)
-   - Pandas, Joblib
+   - Pandas
+   - Joblib
+  
+6. ## Live Demo
+    
 
 ## Future Improvements
-- Add more features (e.g. user history)
+
 - Integrate with real API for live data
 
 Developed by Yashraj — Mumbai, India
